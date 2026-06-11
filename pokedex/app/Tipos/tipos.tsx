@@ -49,23 +49,26 @@ export function Tipos() {
         </div>
 
         <div className="h-48 w-72 bg-green-500 flex flex-col items-center justify-center gap-2 rounded-md shadow-md">
-          <span className="text-3xl font-bold tracking-wider text-black">Bulbasaur</span>
+          <span className="text-3xl font-bold tracking-wider text-black">Planta</span>
+          <span className="text-center">Usam energia da natureza, folhas, vinhas e sementes</span>
           <button className="text-white bg-green-700 px-4 py-1 rounded-md text-xs font-bold uppercase">
-            Planta
+            Bulbassauro
           </button>
         </div>
 
         <div className="h-48 w-72 bg-red-400 flex flex-col items-center justify-center gap-2 rounded-md shadow-md">
-          <span className="text-3xl font-bold tracking-wider text-black">Charmander</span>
+          <span className="text-3xl font-bold tracking-wider text-black">Fogo</span>
+          <span className="text-center">Possuem ataques quentes, intensos e explosivos</span>
           <button className="text-white bg-red-600 px-4 py-1 rounded-md text-xs font-bold uppercase">
-            Fogo
+            Charmander
           </button>
         </div>
 
         <div className="h-48 w-72 bg-blue-300 flex flex-col items-center justify-center gap-2 rounded-md shadow-md">
-          <span className="text-3xl font-bold tracking-wider text-black">Squirtle</span>
+          <span className="text-3xl font-bold tracking-wider text-black">Agua</span>
+          <span className="text-center">Sao versateis e usam jatos de agua em batalha</span>
           <button className="text-white bg-blue-500 px-4 py-1 rounded-md text-xs font-bold uppercase">
-            Água
+            Squirtle
           </button>
         </div>
 
@@ -73,39 +76,39 @@ export function Tipos() {
 
        <div className="flex gap-5 p-4 justify-center flex-wrap">
         
-        <div className="h-48 w-72 bg-amber-700 flex flex-col items-center justify-center gap-2 rounded-md shadow-md">
-          <span className="text-3xl font-bold tracking-wider text-black">hitmonchan</span>
-          <button className="text-white rounded-3x2 bg-amber-500 px-4 py-1 rounded-md text-xs font-bold uppercase">
-            lutador
+        <div className="h-48 w-72 bg-blue-400 flex flex-col items-center justify-center gap-2 rounded-md shadow-md">
+          <span className="text-3xl font-bold tracking-wider text-black">Gelo</span>
+          <span className="text-center">Usam frio, neve e congelamento conta seus oponentes</span>
+          <button className="text-white rounded-3x2 bg-blue-500 px-4 py-1 rounded-md text-xs font-bold uppercase">
+            Lapras
           </button>
         </div>
 
-        <div className="h-48 w-72 bg-orange-500 flex flex-col items-center justify-center gap-2 rounded-md shadow-md">
-          <span className="text-3xl font-bold tracking-wider text-black">dragonite</span>
-          <button className="text-white bg-orange-600 px-4 py-1 rounded-md text-xs font-bold uppercase">
-            dragao
+        <div className="h-48 w-72 bg-gray-500 flex flex-col items-center justify-center gap-2 rounded-md shadow-md">
+          <span className="text-3xl font-bold tracking-wider text-black">Pedra</span>
+          <span className="text-center">Sao resistentes e possuem grande forca defensiva</span>
+          <button className="text-white bg-gray-700 px-4 py-1 rounded-md text-xs font-bold uppercase">
+            Onix
           </button>
         </div>
 
-        <div className="h-48 w-72 bg-gray-700 flex flex-col items-center justify-center gap-2 rounded-md shadow-md">
-          <span className="text-3xl font-bold tracking-wider text-black">Moltres de galar</span>
-          <button className="text-white bg-black px-4 py-1 rounded-md text-xs font-bold uppercase">
-            sombrio
+        <div className="h-48 w-72 bg-pink-400 flex flex-col items-center justify-center gap-2 rounded-md shadow-md">
+          <span className="text-3xl font-bold tracking-wider text-black">Psíquico</span>
+          <span className="text-center">Usam poderes mentais, telecinese e energia psíquica</span>
+          <button className="text-white bg-pink-800 px-4 py-1 rounded-md text-xs font-bold uppercase">
+            Mewtwo
           </button>
         </div>
 
-        <div className="h-48 w-72 bg-blue-100 flex flex-col items-center justify-center gap-2 rounded-md shadow-md">
-          <span className="text-3xl font-bold tracking-wider text-black">Lapras</span>
-          <button className="text-white bg-blue-500 px-4 py-1 rounded-md text-xs font-bold uppercase">
-            gelo
+        <div className="h-48 w-72 bg-pink-300 flex flex-col items-center justify-center gap-2 rounded-md shadow-md">
+          <span className="text-3xl font-bold tracking-wider text-black">Fatasma</span>
+          <span className="text-center">Misteriosos, assustadores e dificeis de atingir</span>
+          <button className="text-white bg-purple-600 px-4 py-1 rounded-md text-xs font-bold uppercase">
+            Gengar
           </button>
         </div>
 
       </div>
-
-
-
-       
       
 
       <div className="grow">

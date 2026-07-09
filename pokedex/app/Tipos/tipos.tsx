@@ -48,6 +48,8 @@ export function Tipos() {
       <div className="flex gap-5 p-4 justify-center flex-wrap">
         
         <div className="h-48 w-75 bg-yellow-300 flex flex-col items-center justify-center gap-2 rounded-md shadow-md">
+
+          <Zap size={40} className="text-yellow-600"></Zap>
           
           <span className="text-2xl font-bold tracking-wider text-black">Eletrico</span>
           <span className="text-center">Pokemons rapidos que usam ataques de eletricidade</span>
@@ -57,6 +59,7 @@ export function Tipos() {
         </div>
 
         <div className="h-48 w-75 bg-green-500 flex flex-col items-center justify-center gap-2 rounded-md shadow-md">
+          <Leaf size={40} className="text-green-800"></Leaf>
           <span className="text-2xl font-bold tracking-wider text-black">Planta</span>
           <span className="text-center">Usam energia da natureza, folhas, vinhas e sementes</span>
           <button className="text-white bg-green-700 px-4 py-1 rounded-md text-xs font-bold uppercase">
@@ -65,6 +68,7 @@ export function Tipos() {
         </div>
 
         <div className="h-48 w-75 bg-red-400 flex flex-col items-center justify-center gap-2 rounded-md shadow-md">
+          <Flame size={40} className="text-red-600"></Flame>
           <span className="text-2xl font-bold tracking-wider text-black">Fogo</span>
           <span className="text-center">Possuem ataques quentes, intensos e explosivos</span>
           <button className="text-white bg-red-600 px-4 py-1 rounded-md text-xs font-bold uppercase">
@@ -73,6 +77,7 @@ export function Tipos() {
         </div>
 
         <div className="h-48 w-75 bg-blue-300 flex flex-col items-center justify-center gap-2 rounded-md shadow-md">
+          <Droplets size={40} className="text-blue-600"></Droplets>
           <span className="text-2xl font-bold tracking-wider text-black">Agua</span>
           <span className="text-center">Sao versateis e usam jatos de agua em batalha</span>
           <button className="text-white bg-blue-500 px-4 py-1 rounded-md text-xs font-bold uppercase">
@@ -85,6 +90,7 @@ export function Tipos() {
        <div className="flex gap-5 p-4 justify-center flex-wrap">
         
         <div className="h-48 w-75 bg-blue-400 flex flex-col items-center justify-center gap-2 rounded-md shadow-md">
+          <Snowflake size={40} className="text-cyan-700"></Snowflake>
           <span className="text-2xl font-bold tracking-wider text-black">Gelo</span>
           <span className="text-center">Usam frio, neve e congelamento conta seus oponentes</span>
           <button className="text-white rounded-3x2 bg-blue-500 px-4 py-1 rounded-md text-xs font-bold uppercase">
@@ -93,6 +99,7 @@ export function Tipos() {
         </div>
 
         <div className="h-48 w-75 bg-gray-500 flex flex-col items-center justify-center gap-2 rounded-md shadow-md">
+          <Gem size={40} className="text-gray-600"></Gem>
           <span className="text-2xl font-bold tracking-wider text-black">Pedra</span>
           <span className="text-center">Sao resistentes e possuem grande forca defensiva</span>
           <button className="text-white bg-gray-700 px-4 py-1 rounded-md text-xs font-bold uppercase">
@@ -101,6 +108,7 @@ export function Tipos() {
         </div>
 
         <div className="h-48 w-75 bg-pink-400 flex flex-col items-center justify-center gap-2 rounded-md shadow-md">
+          <Brain size={40} className="text-pink-600"></Brain>
           <span className="text-2xl font-bold tracking-wider text-black">Psíquico</span>
           <span className="text-center">Usam poderes mentais, telecinese e energia psíquica</span>
           <button className="text-white bg-pink-800 px-4 py-1 rounded-md text-xs font-bold uppercase">
@@ -109,6 +117,7 @@ export function Tipos() {
         </div>
 
         <div className="h-48 w-75 bg-pink-300 flex flex-col items-center justify-center gap-2 rounded-md shadow-md">
+          <Ghost size={40} className="text-purple-600"></Ghost>
           <span className="text-2xl font-bold tracking-wider text-black">Fatasma</span>
           <span className="text-center">Misteriosos, assustadores e dificeis de atingir</span>
           <button className="text-white bg-purple-600 px-4 py-1 rounded-md text-xs font-bold uppercase">
